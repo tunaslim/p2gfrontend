@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Optional: Add your own global styles below */
+
+/* Example: Set default font family */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb; /* soft background color */
+  color: #111827; /* dark gray text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Example: Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Example: Custom container width */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
